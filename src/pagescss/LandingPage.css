@@ -1,0 +1,422 @@
+#landing-page-main-container{
+    margin: 0px;
+    padding: 0px;
+    height: 100vh;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), #010100;
+    font-family: 'Literata';
+}
+
+
+/* TopNav Start */
+
+#top-navbar-container{
+    padding: 0px;
+    margin: 0px;
+}
+#top-navbar{
+    color: #ffffff;
+    background: #2B2B2A;
+}
+#top-navbar-span{
+    margin-right: 5vh;
+    color: #ffffff;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+}
+#top-navbar-span-icon{
+    margin-right: 1vh;
+}
+#top-navbar-navlink{
+    margin-right: 2vh;
+}
+#top-navbar-row{
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+}
+
+/* TopNav End */
+
+
+
+/* BottomNav Start */
+
+#bottom-navbar{
+    background-color: rgba(1, 1, 0, 0.96);
+}
+#bottom-navbar-toggle{
+    background-color: #FEFEFF;
+}
+#logo-text{
+    color: #CAA731;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    font-family: 'Lancelot';
+}
+#bottom-nav-list-item{
+    color: #FEFEFF;
+    margin-right: 5vh;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+}
+#activelink{
+    background: linear-gradient(90deg, #B58C03 0%, #F3BB00 100%);
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    color: #FEFEFF;
+}
+
+/* BottomNav End */
+
+
+/* Banner Start */
+
+#banner-container{
+    margin: 0px;
+    padding: 0px;
+    color: #FEFEFF;
+    min-height: 80vh;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), #010100;
+    padding-left: 7%;
+    padding-right: 2%;
+}
+#banner-row{
+    margin: 0px;
+    padding: 0px;
+    min-height: 80vh;
+}
+#banner-image{
+    height: 100%;
+    width: 100%;
+}
+#banner-row-first-col{
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    min-height: 100%;
+}
+#banner-row-second-col{
+    min-height: 100%;
+}
+#banner-text-container{
+    margin: 0px;
+    padding: 0px;
+}
+#banner-main-text{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 72px;
+}
+#banner-main-text-1{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 72px;
+    margin-top: -7vh;
+}
+#banner-main-text-sub{
+    color: #CAA731;
+}
+#banner-sub-text{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    font-family: 'Poppins';
+}
+#banner-sub-text-1{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    margin-top: -1vh;
+    font-family: 'Poppins';
+}
+#banner-videos-text{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    font-family: 'Poppins';
+}
+#banner-button-text{
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    color: #FEFEFF;
+    background: linear-gradient(90deg, #B58C03 0%, #F3BB00 100%);
+    height: 7vh;
+    width: 25%;
+    margin-right: 4%;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    font-family: 'Literata';
+}
+#banner-button-icon{
+    margin-left: 4%;
+}
+#banner-awards-text{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    margin-bottom: 5vh;
+    font-family: 'Poppins';
+}
+#banner-rate-icon{
+    margin-right: 3%;
+}
+#banner-rate-text{
+    margin-top: 10vh;
+    font-family: 'Poppins';
+}
+
+
+/* Banner End */
+
+
+
+/* BelowBanner Start */
+
+#below-banner-main-container{
+    margin: 0px;
+    padding: 0px;
+    min-height: 23vh;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), #010100;
+    color: #FEFEFF;
+}
+#below-banner-row{
+    margin: 0px;
+    padding: 0px;
+    min-height: 100%;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-bottom: 5vh;
+}
+#below-banner-sub-container{
+    margin: 0px;
+    padding: 0px;
+    border-left: 1px solid #CAA731;
+    min-height: 100%;
+    width: 100%;
+}
+#below-banner-col{
+    min-height: 100%;
+}
+#below-banner-main-text{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    margin-top: 2vh;
+}
+#below-banner-sub-text{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    margin-top: -2vh;
+    font-family: 'Poppins';
+}
+
+
+
+/* BelowBanner End */
+
+
+
+/* AboutUsInfo Start */
+
+#AboutUsInfo-main-container{
+    margin: 0px;
+    padding: 0px;
+    min-height: 80vh;
+    color: #FEFEFF;
+    background: #2B2B2A;
+}
+#AboutUsInfo-row{
+    margin: 0px;
+    padding: 0px;
+    min-height: 100%;
+    padding-right: 8%;
+    padding-left: 8%;
+}
+#AboutUsInfo-col-1{
+    margin: 0px;
+    padding: 0px;
+    min-height: 100%;
+    padding-top: 20vh;
+    padding-bottom: 20vh;
+}
+#AboutUsInfo-col-2{
+    margin: 0px;
+    padding: 0px;
+    min-height: 100%;
+    padding-top: 5vh;
+    background-position: center right;
+    background-repeat: no-repeat;
+}
+#AboutUsInfo-main-text{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    margin-bottom: 5vh;
+}
+#AboutUsInfo-main-sub-text{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    border-bottom: 2px solid #CAA731;
+}
+#AboutUsInfo-sub-text-1, #AboutUsInfo-sub-text-3, #AboutUsInfo-sub-text-5{
+    margin-top: 2vh;
+    font-family: 'Poppins';
+}
+#AboutUsInfo-sub-text-2, #AboutUsInfo-sub-text-4, #AboutUsInfo-sub-text-6{
+    margin-top: -2vh;
+    font-family: 'Poppins';
+}
+#AboutUsInfo-button{
+    background: linear-gradient(90deg, #B58C03 0%, #F3BB00 100%);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    color: #FEFEFF;
+    height: 7vh;
+    width: 25%;
+    margin-top: 3vh;
+}
+#AboutUsInfo-image-1{
+    width: 90%;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+#AboutUsInfo-image-2{
+    width: 50%;
+    position: relative;
+    top: -15vh;
+    left: 25%;
+}
+
+
+
+/* AboutUsInfo End */
+
+
+
+
+/* ServicesInfo Start */
+
+#ServicesInfo-main-container{
+    margin: 0px;
+    padding: 0px;
+    min-height: 80vh;
+    color: #FEFEFF;
+    background: #010100;
+    padding-left: 8%;
+    padding-right: 8%;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+}
+#ServicesInfo-main-text{
+    font-weight: 600;
+    font-size: 48px;
+    color: #FEFEFF;
+    margin-bottom: 3vh;
+}
+#ServicesInfo-main-sub-text{
+    border-bottom: 2px solid #CAA731;
+}
+#ServicesInfo-sub-text{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 10vh;
+    font-family: 'Poppins';
+}
+#ServicesInfo-row-1{
+    margin: 0px;
+    padding: 0px;
+}
+#ServicesInfo-row-2{
+    margin: 0px;
+    padding: 0px;
+    border: 5px solid green;
+}
+
+/* LandingPage_ServicesInfo_Col Start */
+
+#ServicesInfo_Col-main-cont{
+    margin: 0px;
+    padding: 0px;
+    background: #2B2B2B;
+    border-radius: 5px;
+    color: #FEFEFF;
+    border: 7px solid #010100;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding-right: 2%;
+    padding-left: 2%;
+}
+#ServicesInfo_Col-main-row{
+    margin: 0px;
+    padding: 0px;
+}
+#ServicesInfo_Col-sub-cont-1{
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+#ServicesInfo_Col-sub-cont-2{
+    margin: 0px;
+    padding: 0px;
+    text-align: start;
+}
+
+#ServicesInfo_Col-main-text{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    margin-bottom: 5vh;
+}
+#ServicesInfo_Col-sub-text-1, #ServicesInfo_Col-sub-text-2, #ServicesInfo_Col-sub-text-3{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: -2vh;
+    font-family: 'Poppins';
+}
+
+/* LandingPage_ServicesInfo_Col End */
+
+#ServicesInfo-div{
+    margin-top: 3vh;
+}
+#ServicesInfo-div-text{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    color: #CAA731;
+    text-decoration: none;
+    font-family: 'Poppins';
+}
+
+
+/* ServicesInfo End */
+
+
+
+
+
+/* PricesInfo Start */
+
+#PricesInfo-main-container{
+    margin: 0px;
+    padding: 0px;
+    min-height: 80vh;
+    color: #FEFEFF;
+    background: #2B2B2B;
+}
+
+
+
+
+
+/* PricesInfo End */

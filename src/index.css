@@ -11,3 +11,18 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@font-face {
+  font-family: 'Literata';
+  src: local('literata'), url(./fonts/literata/Literata-Regular.woff) format('truetype');
+}
+
+@font-face {
+  font-family: 'Lancelot';
+  src: local('lancelot'), url(./fonts/lancelot/Lancelot-Regular.woff) format('truetype');
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src: local('poppins'), url(./fonts/poppins/Poppins-Regular.woff) format('truetype');
+}
