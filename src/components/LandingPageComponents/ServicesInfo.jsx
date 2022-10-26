@@ -12,7 +12,7 @@ function ServicesInfo() {
     <div className="container-fluid" id='ServicesInfo-main-container'>
 
         <h5 id='ServicesInfo-main-text'>Ou<span id='ServicesInfo-main-sub-text'>r Serv</span>ices</h5>
-        <p id='ServicesInfo-sub-text'>We offer the best beauty service with best facility and experiences stafff</p>
+        <p id='ServicesInfo-sub-text'>We offer the best beauty service with best facility and experiences staff</p>
 
         <div className="row gx-10 gy-10" id='ServicesInfo-row-1'>
 

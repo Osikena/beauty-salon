@@ -5,6 +5,30 @@
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), #010100;
     font-family: 'Literata';
 }
+#LandingPageSubHeader-main-text{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    color: #FEFEFF;
+    margin-bottom: 3vh;
+}
+#LandingPageSubHeader-main-sub-text{
+    border-bottom: 2px solid #CAA731;
+}
+#LandingPageSubHeader-sub-text-1{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    font-family: 'Poppins';
+    color: #FEFEFF;
+}
+#LandingPageSubHeader-sub-text-2{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    font-family: 'Poppins';
+    color: #CAA731;
+}
 
 
 /* TopNav Start */
@@ -413,10 +437,244 @@
     min-height: 80vh;
     color: #FEFEFF;
     background: #2B2B2B;
+    padding-left: 8%;
+    padding-right: 8%;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+}
+#PricesInfo-main-text{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    color: #FEFEFF;
+    margin-bottom: 3vh;
+}
+#PricesInfo-main-sub-text{
+    border-bottom: 2px solid #CAA731;
+}
+#PricesInfo-sub-text{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 10vh;
+    font-family: 'Poppins';
+}
+#PricesInfo-row{
+    margin: 0px;
+    padding: 0px;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+#PricesInfo-col-1{
+    margin: 0px;
+    padding: 0px;
+}
+#PricesInfo-col-2{
+    margin: 0px;
+    padding: 0px;
+}
+#PricesInfo-col-3{
+    margin: 0px;
+    padding: 0px;
+}
+#PricesInfo_Div-main{
+    margin-top: 10%;
+}
+#PricesInfo_Div-main-text{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+}
+#PricesInfo_Div-line{
+    color: #2B2B2B;
+    text-decoration: line-through;
+    text-decoration-color: #FEFEFF;
+    text-decoration-style: dotted;
+    margin-left: 1%;
+}
+#PricesInfo_Div-main-text-sub{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    color: #CAA731;
+    margin-left: 1%;
+}
+#PricesInfo_Div-sub-text{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+}
+
+
+
+/* PricesInfo End */
+
+
+
+
+
+
+
+
+/* BookingInfo Start */
+
+#BookingInfo-main-container{
+    margin: 0px;
+    padding: 0px;
+    min-height: 80vh;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), #010100;
+    opacity: 0.94;
+    padding-left: 8%;
+    padding-right: 8%;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+}
+#BookingInfo-main-row{
+    margin: 0px;
+    padding: 0px;
+}
+#BookingInfo-main-row-col{
+    margin: 0px;
+    padding: 0px;
+}
+#BookingInfo-main-row-col-1{
+    margin: 0px;
+    padding: 0px;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+#BookingInfo-main-text{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    color: #FEFEFF;
+    margin-bottom: 3vh;
+}
+#BookingInfo-main-sub-text{
+    border-bottom: 2px solid #CAA731;
+}
+#BookingInfo-sub-text-1{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    font-family: 'Poppins';
+    color: #FEFEFF;
+}
+#BookingInfo-sub-text-2{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    margin-bottom: 5vh;
+    font-family: 'Poppins';
+    color: #CAA731;
+}
+#BookingInfo_Col-text-1{
+    margin-top: 4vh;
+    height: 8vh;
+    background: #FEFEFF;
+    border-radius: 5px;
+}
+#BookingInfo_Col-select-1{
+    margin-top: 4vh;
+    height: 8vh;
+    background: #FEFEFF;
+    border-radius: 5px;
+}
+#BookingInfo_Col-select-2{
+    margin-top: 4vh;
+    height: 8vh;
+    background: #FEFEFF;
+    border-radius: 5px;
+}
+#BookingInfo-textarea{
+    margin-top: 4vh;
+    background: #FEFEFF;
+    border-radius: 5px;
+}
+#BookingInfo-btn{
+    background: linear-gradient(90deg, #B58C03 0%, #F3BB00 100%);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    margin-top: 4vh;
+    width: 100%;
+    height: 8vh;
+    color: #FEFEFF;
 }
 
 
 
 
+/* BookingInfo End */
 
-/* PricesInfo End */
+
+
+
+
+
+
+/* GalleryInfo Start */
+
+#GalleryInfo-main-container{
+    margin: 0px;
+    padding: 0px;
+    min-height: 80vh;
+    background: #2B2B2B;
+    opacity: 0.94;
+    padding-left: 8%;
+    padding-right: 8%;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+}
+#GalleryInfo-main-text{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    color: #FEFEFF;
+    margin-bottom: 3vh;
+}
+#GalleryInfo-main-sub-text{
+    border-bottom: 2px solid #CAA731;
+}
+#GalleryInfo-sub-text{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    font-family: 'Poppins';
+    color: #FEFEFF;
+    margin-bottom: 10vh;
+}
+
+
+
+
+/* GalleryInfo End */
+
+
+
+
+
+
+
+
+/* Testimonials Start */
+
+#Testimonials-main-container{
+    margin: 0px;
+    padding: 0px;
+    min-height: 80vh;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), #010100;
+    opacity: 0.90;
+    background-repeat: no-repeat;
+    background-size: 25%;
+    padding-left: 8%;
+    padding-right: 8%;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+}
+
+
+
+
+/* Testimonials End */

@@ -7,6 +7,9 @@ import BelowBanner from '../components/LandingPageComponents/BelowBanner'
 import AboutUsInfo from '../components/LandingPageComponents/AboutUsInfo'
 import ServicesInfo from '../components/LandingPageComponents/ServicesInfo'
 import PricesInfo from '../components/LandingPageComponents/PricesInfo'
+import BookingInfo from '../components/LandingPageComponents/BookingInfo'
+import GalleryInfo from '../components/LandingPageComponents/GalleryInfo'
+import Testimonials from '../components/LandingPageComponents/Testimonials'
 
 function LandingPage() {
   return (
@@ -23,6 +26,12 @@ function LandingPage() {
         <ServicesInfo />
 
         <PricesInfo />
+
+        <BookingInfo />
+
+        <GalleryInfo />
+
+        <Testimonials />
 
     </div>
   )
